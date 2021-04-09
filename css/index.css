@@ -1,0 +1,114 @@
+body {
+  background-color: #1f4068 !important;
+}
+
+#user_card {
+  background-color: #bbe1fa;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.user-card-info {
+  display: block !important;
+  width: 80%;
+  text-align: left;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.user-card-name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.user-card-sub {
+  display: flex;
+  width: 100%;
+}
+
+.user-card-sub {
+  width: 100%;
+  text-align: right;
+}
+
+.user-card-icons {
+  width: 20%;
+  text-align: right;
+}
+
+#user_card_edit {
+  padding: 10px;
+}
+
+#user_card_body {
+  padding: 10px 0px;
+  margin: 0px 5px;
+  background-color: #e4fbff;
+  border-radius: 4px;
+}
+
+#user_card_fav,
+#user_card_edit,
+#user_card_delete {
+  cursor: pointer;
+  user-select: none;
+}
+
+.user-fav-added {
+  color: red;
+}
+
+#user_edit_save,
+#user_edit_cancel {
+  color: #e4fbff !important;
+  background-color: #1b262c !important;
+  border: 1px solid #000 !important;
+  border-radius: 4px;
+}
+
+
+.navbar-text{
+  margin: 10px 0px !important;
+  font-size: 20px;
+  color: #000 !important;
+}
+
+.navbar-brand {
+  padding: 12px 10px !important;
+}
+
+/* Dialogue CSS Overwritten - Start */
+
+.ui-dialog .ui-widget .ui-widget-content .ui-corner-all .ui-front {
+  background-color: #133b5c;
+}
+
+.ui-widget-content {
+  border: 1px solid #000 !important;
+  background: #133b5c !important;
+  color: #e5d7d7 !important;
+}
+
+.ui-widget-header {
+  border: 1px solid #1f4068 !important;
+  background: #bbe1fa !important;
+  color: #000 !important;
+  font-weight: bold;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+  border: none !important;
+  background: none !important;
+  font-weight: bold;
+  color: #1c94c4;
+}
+
+.ui-widget-overlay {
+  background: #666666 50% 50% repeat !important;
+  opacity: .5;
+  filter: Alpha(Opacity=50);
+}
+
+/* Dialogue CSS Overwritten - End */

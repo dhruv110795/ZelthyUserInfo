@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Zelthy</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+
+    <link rel="stylesheet" href="./css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <link
+      href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+      rel="stylesheet"
+    />
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+    <script src="js/index.js" async defer></script>
+  </head>
+  <body>
+    <div id="z_content">
+      <nav class="navbar navbar-default" style="margin: 0px;">
+        <span class="navbar-brand material-icons-outlined md-36">face</span>
+        <span class="navbar-text">Zelthy User Info</span>
+      </nav>
+
+      <div id="z_user_card">
+        <div class="col-md-12" id="user_card_info"></div>
+      </div>
+
+      <div id="z_user_edit_dialogue" style="display: none;">
+        <form>
+          <div class="form-group" style="display: flex; width: 100%;">
+            <label for="user_edit_name" style="width: 30%;text-align: right;padding: 5px 20px 0 0;">Name</label>
+            <input type="text" class="form-control" id="user_edit_name" style="width: 70%;text-align: left;" />
+          </div>
+          <div class="form-group" style="display: flex; width: 100%;">
+            <label for="user_edit_name" style="width: 30%;text-align: right;padding: 5px 20px 0 0;">Email</label>
+            <input type="text" class="form-control" id="user_edit_email" style="width: 70%;text-align: left;" />
+          </div>
+          <div class="form-group" style="display: flex; width: 100%;">
+            <label for="user_edit_name" style="width: 30%;text-align: right;padding: 5px 20px 0 0;">Phone</label>
+            <input type="text" class="form-control" id="user_edit_phone" style="width: 70%;text-align: left;" />
+          </div>
+          <div class="form-group" style="display: flex; width: 100%;">
+            <label for="user_edit_name" style="width: 30%;text-align: right;padding: 5px 20px 0 0;">Website</label>
+            <input type="text" class="form-control" id="user_edit_web" style="width: 70%;text-align: left;" />
+          </div>
+        </form>
+        <div class="dialog_button" style="float: right;">
+          <button id="user_edit_save">Save</button>
+          <button id="user_edit_cancel">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
